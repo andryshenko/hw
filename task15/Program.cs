@@ -1,5 +1,5 @@
-﻿Console.WriteLine("Введите номер дня недели");
-Console.WriteLine("Является ли этот день Выходным?");
+﻿Console.WriteLine("Является ли этот день недели - Выходным?");
+Console.WriteLine("Введите номер дня недели");
 int number = int.Parse(Console.ReadLine()!);
 
 {
