@@ -8,7 +8,8 @@
 // System.Console.WriteLine(str[2]);
 
 // Вариант 2
-int n=456879;
+Console.WriteLine("Введите любое число: ");
+int n = Convert.ToInt32(Console.ReadLine());
 
 while (n>999)
 {
