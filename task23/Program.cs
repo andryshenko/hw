@@ -11,5 +11,5 @@ int n = Convert.ToInt32(Console.ReadLine());
 // }
 
 // Вариант 2
-int stepen = 3;
-Console.WriteLine("n ^ 3 = " + Math.Pow(n, stepen));
+int sqr = 3;
+Console.WriteLine("n ^ 3 = " + Math.Pow(n, sqr));
