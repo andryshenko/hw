@@ -12,4 +12,7 @@ int n = Convert.ToInt32(Console.ReadLine());
 
 // Вариант 2
 int sqr = 3;
-Console.WriteLine("n ^ 3 = " + Math.Pow(n, sqr));
+for (int i=1; i<=n; i++)
+{
+    Console.WriteLine($"Число в ^ 3 = " + Math.Pow(i, sqr));
+}
