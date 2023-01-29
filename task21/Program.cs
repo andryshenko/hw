@@ -20,4 +20,4 @@ int y = y2 - y1;
 int z = z1 - z2;
 
 double length = Math.Sqrt(x * x + y * y + z * z);
-Console.WriteLine($"Расстояние между точками: {length}");
+Console.WriteLine($"Расстояние между точками: {lenght}");
