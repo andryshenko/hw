@@ -15,9 +15,9 @@ int y2 = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите координату Z2: ");
 int z2 = Convert.ToInt32(Console.ReadLine());
 
-int A = x2 - x1;
-int B = y2 - y1;
-int C = z1 - z2;
+int x = x2 - x1;
+int y = y2 - y1;
+int z = z1 - z2;
 
-double length = Math.Sqrt(A * A + B * B + C * C);
+double length = Math.Sqrt(x * x + y * y + z * z);
 Console.WriteLine($"Расстояние между точками: {length}");
